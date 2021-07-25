@@ -1,0 +1,27 @@
+.homepage-header {
+    padding: 0px;
+    background: #fff;
+    z-index: 10;
+    max-width: 100%;
+    -webkit-box-shadow: 0 2px 8px #dadada;
+    box-shadow: 0 2px 8px #dadada;
+    -webkit-transition: all .3s cubic-bezier(.78, .14, .15, .86);
+    transition: all .3s cubic-bezier(.78, .14, .15, .86);
+
+    .header-column {
+        display: flex;
+        align-items: center;
+        padding-left: 25px;
+        cursor: pointer;
+    }
+
+    .header-title {
+        margin-top: 0.5em;
+        padding-left: 10px;
+    }
+}
+
+.card{
+    padding-top: 100px;
+    text-align: 'center'
+}
